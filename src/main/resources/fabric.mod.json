@@ -3,27 +3,27 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Just Utilities Mod",
+  "description": "A clientside utility mod",
   "authors": [
-    "Me!"
+    "NobodyAwesomer"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/nobodyawesomer/JustUtilities",
+    "sources": "https://github.com/nobodyawesomer/JustUtilities"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "pm.nobody.justutilities.JustUtilitiesMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "justutilities.mixins.json"
   ],
 
   "depends": {
